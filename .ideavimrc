@@ -1,0 +1,7 @@
+set surround
+set nu rnu
+let mapleader = " "
+noremap <leader>I ggvG=
+map <leader>a ggVG
+nnoremap <leader>vs :source ~/.ideavimrc<CR>
+nnoremap <leader>p "0p
