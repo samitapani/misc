@@ -1,0 +1,1 @@
+MAVEN_OPTS='-XX:+TieredCompilation -XX:TieredStopAtLevel=1' mvn install -q '-T 2.0C' --also-make --offline #-P dev-local 
